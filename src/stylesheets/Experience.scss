@@ -1,0 +1,32 @@
+.experience-container {
+  padding-top: 50px;
+  width: 100%;
+
+  .container-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    .technologies {
+      width: 270px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+      margin-bottom: 50px;
+
+      .logo-experiencia {
+        width: 75px;
+        padding: 10px 0;
+      }
+
+      .texto-experiencia {
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 400;
+      }
+    }
+  }
+}

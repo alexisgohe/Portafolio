@@ -1,0 +1,100 @@
+.home-container {
+	display: flex;
+	flex-direction: row;
+	padding: 50px 15px;
+	width: 100%;
+	.home-text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		.text-slogan {
+			font-weight: 700;
+			letter-spacing: 0.8px;
+			padding: 8px 10px;
+			border: 1px solid #9f9f9f;
+			display: inline-block;
+			font-size: 20px;
+			margin-bottom: 20px;
+			color: #fff;
+		}
+		.home-encabezado {
+			font-size: 70px;
+			color: #fff;
+			letter-spacing: 3px;
+			margin-bottom: 20px;
+		}
+		.home-texto {
+			color: #9f9f9f;
+			padding-right: 45%;
+			margin-bottom: 20px;
+		}
+	}
+	.home-imagen {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding-left: 30px;
+		.logo-perfil {
+			margin: auto;
+			border-radius: 15px;
+			height: 75%;
+		}
+	}
+}
+@media screen and (max-width: 925px) {
+	.home-container {
+		.home-text {
+			width: 60%;
+			.home-encabezado {
+				padding-right: 5px;
+			}
+		}
+		.home-imagen {
+			width: 40%;
+			.logo-perfil {
+				height: 60%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	.home-container {
+		flex-direction: column;
+		.home-text {
+			text-align: center;
+			width: 100%;
+			.text-slogan {
+				margin: auto;
+			}
+			.home-encabezado {
+				padding-right: 0;
+				margin-bottom: 35px;
+			}
+			.home-texto {
+				padding: 0 50px;
+				margin-bottom: 35px;
+			}
+			.container-btn {
+				margin: auto;
+			}
+		}
+		.home-imagen {
+			height: 100%;
+			padding: 30px 0;
+			margin: auto;
+			.logo-perfil {
+				width: 100%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 413px) {
+	.home-container {
+		.home-text {
+			.home-encabezado {
+				font-size: 50px;
+			}
+		}
+	}
+}

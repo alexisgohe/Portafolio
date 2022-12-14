@@ -1,0 +1,158 @@
+.resume-container
+  padding: 50px 10px
+  width: 100%
+  .sidebar-section
+    display: flex
+    flex-direction: row
+    .panel-izquierdo
+      width: 35%
+      border-right: 2px solid #62b7f4
+      display: flex
+      flex-direction: column
+      justify-content: center
+      .sidebar-column
+        width: 80%
+        margin-bottom: 10px
+        padding: 9px
+        background-color: #212e36
+        color: #9f9f9f
+        border-top-right-radius: 20px
+        border-bottom-right-radius: 20px
+        border: 0.1px solid #212e36
+        &.seleccion
+          color: #62b7f4
+          background-color: #162936
+          border: 1px solid #9f9f9f
+          font-weight: bold
+        &:hover
+          color: #fff
+          cursor: pointer
+          background-color: #162936
+          border: 0.1px solid #9f9f9f
+        span
+          padding: 0 10px
+          display: inline-block
+          font-size: 20px
+    .panel-derecho
+      width: 65%
+      display: flex
+      flex-direction: column
+      justify-content: center
+      .contenedor-sobremi
+        padding: 20px
+        .texto-description
+          color: #9f9f9f
+          text-align: justify
+      .contenedor-educacion
+        display: flex
+        margin-bottom: 20px
+        .education-logo
+          padding: 10px 0px 10px 20px
+          margin: auto
+          .logo-experiencia
+            border-radius: 50px
+            padding: 10px
+            background-color: #f9f9f9
+            margin: auto
+            display: flex
+            width: 40%
+        .education-description
+          width: 80%
+          padding: 10px 10px 10px 25px
+          .encabezado-description
+            color: #fff
+            font-size: 25px
+            padding-bottom: 5px
+          .texto-description
+            color: #9f9f9f
+            text-align: justify
+        .education-year
+          width: 20%
+          margin: auto
+          .texto-year
+            width: 60%
+            background-color: #62b7f4
+            border-radius: 20px
+            margin: auto
+            padding: 10px
+
+.categoria
+  margin-bottom: 16px
+  .container
+    display: flex
+    background-color: #192229
+    align-items: center
+    justify-content: center
+    .panel-left
+      padding: 0 20px
+      svg
+        font-size: 40px
+        color: #fff
+    .panel-right
+      width: 90%
+      padding: 0 0 0 20px
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      justify-content: center
+      .skill-text
+        color: #fff
+        font-size: 16px
+        font-weight: bold
+        margin-bottom: 5px
+      .skill-bar
+        width: 100%
+        height: 20px
+        border-radius: 20px
+        background-color: #212e36
+        padding: 2px
+        .progress
+          display: flex
+          align-items: center
+          justify-content: flex-end
+          overflow: hidden
+          width: 0
+          height: 100%
+          opacity: 1
+          transition: width .5s
+          background: #62b7f4
+          border-radius: 20px
+          span
+            color: #fff
+            line-height: 20px
+            font-size: 11px
+            font-weight: bold
+            margin-right: 10px
+
+@media screen and (max-width: 767px)
+  .resume-container
+    .sidebar-section
+      flex-direction: column
+      .panel-izquierdo
+        width: 100%
+        flex-direction: row
+        border-right: 2px solid #192229
+        .sidebar-column
+          margin: 10px
+          border-radius: 20px
+          text-align: center
+          .tittle
+            display: none
+      .panel-derecho
+        width: 100%
+
+@media screen and (max-width: 576px)
+  .resume-container
+    .sidebar-section
+      .panel-derecho
+        .contenedor-educacion
+          width: 100%
+          .education-logo
+            padding: 0
+            width: 15%
+            .logo-experiencia
+              margin: auto
+              width: 70%
+          .education-description
+            width: 85%
+            padding: 10px
