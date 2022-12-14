@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.4695c07b.css",
-    "main.js": "/portafolio/static/js/main.34294bdb.js",
+    "main.js": "/portafolio/static/js/main.95418ed4.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/CV_AlexisGomez.pdf": "/portafolio/static/media/CV_AlexisGomez.ccf8a70f529605ec7d2a.pdf",
     "static/media/portafolio5.jpg": "/portafolio/static/media/portafolio5.6b879a1bf70901c7abd2.jpg",
@@ -25,11 +25,11 @@
     "static/media/nav-icon1.svg": "/portafolio/static/media/nav-icon1.6369a9348521abc6f48d435a4f9e2383.svg",
     "static/media/nav-icon2.svg": "/portafolio/static/media/nav-icon2.e6ec5294fb7d12b332dd640ce73c38f0.svg",
     "main.4695c07b.css.map": "/portafolio/static/css/main.4695c07b.css.map",
-    "main.34294bdb.js.map": "/portafolio/static/js/main.34294bdb.js.map",
+    "main.95418ed4.js.map": "/portafolio/static/js/main.95418ed4.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4695c07b.css",
-    "static/js/main.34294bdb.js"
+    "static/js/main.95418ed4.js"
   ]
 }
