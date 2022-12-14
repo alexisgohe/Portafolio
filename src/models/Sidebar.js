@@ -4,13 +4,14 @@ import { IoIosSchool } from "react-icons/io";
 import { MdWork } from "react-icons/md";
 import { SiGoogletranslate } from "react-icons/si";
 import { TbCertificate } from "react-icons/tb";
+import { FaUserAlt } from "react-icons/fa";
 
 function Sidebar() {
   const datos = [
     {
-      title: "Portafolio",
+      title: "Un poco de mi",
       path: "/portafolio",
-      icon: <IoIosSchool />,
+      icon: <FaUserAlt />,
     },
     {
       title: "Educación",
