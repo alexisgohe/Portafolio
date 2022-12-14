@@ -8,6 +8,11 @@ import { TbCertificate } from "react-icons/tb";
 function Sidebar() {
   const datos = [
     {
+      title: "Portafolio",
+      path: "/portafolio",
+      icon: <IoIosSchool />,
+    },
+    {
       title: "Educación",
       path: "/escuela",
       icon: <IoIosSchool />,

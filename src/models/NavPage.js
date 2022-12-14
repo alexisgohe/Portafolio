@@ -10,7 +10,7 @@ function NavPage() {
   return (
     <React.Fragment>
         <Routes>
-          <Route path="/" element={<SobreMi/>}/>
+          <Route path="/portafolio" element={<SobreMi/>}/>
           <Route path="/escuela" element={<Escuela/>}/>
           <Route path="/trabajo" element={<Trabajo/>}/>
           <Route path="/idioma" element={<Parent/>}/>
